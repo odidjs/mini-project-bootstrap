@@ -34,7 +34,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark grad">
       <div class="container">
         <a class="navbar-brand" href="#"
-          ><img src="img/logo1.png" width="80px" height="70px" alt="logo"
+          ><img class="brand1" src="img/logo1.png" width="80px" height="70px" alt="logo"
         /></a>
         <button
           class="navbar-toggler"
@@ -84,6 +84,7 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Login</a>
             </li>
+            <button class="btn btn-dark" onclick="dark()">Dark Mode</button>
           </ul>
         </div>
       </div>
@@ -113,7 +114,7 @@
               Kami menyediakan berbagai voucher game untuk membantu players
               menjadi pemenang dan merasakan pengalaman baru
             </p>
-            <button class="btn btn-primary get-start">Get Started</button>
+            <button class="btn btn-primary get-start" >Get Started</button>
           </div>
           <div class="col-lg-6 col-12 d-lg-block d-none">
             <div
@@ -138,6 +139,9 @@
         </div>
       </div>
     </section>
+
+
+
     <section class="step mt-5 px-0 mx-lg-0">
       <div class="container">
         <div class="row text-center">
@@ -145,6 +149,8 @@
         </div>
       </div>
     </section>
+
+
     <section class="featured-game mt-4 mb-5 mx-auto">
       <div class="container">
         <div class="row text-center mb-5">
@@ -254,7 +260,7 @@
               >
               <input
                 type="email"
-                class="form-control"
+                class="form-control form-email"
                 id="exampleFormControlInput1"
                 placeholder="name@example.com"
               />
@@ -264,12 +270,12 @@
                 >Feedback</label
               >
               <textarea
-                class="form-control"
+                class="form-control form-feedback"
                 id="exampleFormControlTextarea1"
                 rows="3"
               ></textarea>
             </div>
-            <button class="btn btn-primary" onclick="notif()">Submit</button>
+            <button class="btn btn-primary feedback" >Submit</button>
           </div>
         </div>
       </div>
@@ -728,6 +734,7 @@
       </div>
     </div>
 
-    <script src="script.js"></script>
+    <script type="text/javascript" src="script.js"> </script>
+ 
   </body>
 </html>

@@ -37,6 +37,15 @@ h2 {
   line-height: 1.5;
 }
 
+.sticky {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+
+.brand-none {
+  display: none;
+}
 /* .line1::after {
   content: "";
   width: 240px;
